@@ -1,5 +1,3 @@
-
-
 function fillBeforeAfter() {
     const container = document.querySelector('.client-before-after');
     container.innerHTML = ``;
