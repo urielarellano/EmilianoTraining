@@ -1,3 +1,10 @@
+const repoBase = location.hostname.includes("github.io")
+  ? "/urielarellano/"
+  : "/";
+
+document.querySelector("header").style.backgroundImage =
+  `url('${repoBase}assets/header-image.webp')`;
+
 function fillBeforeAfter() {
     const container = document.querySelector('.client-before-after');
     container.innerHTML = ``;
