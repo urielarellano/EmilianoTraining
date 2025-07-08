@@ -27,9 +27,9 @@ function fillBeforeAfter() {
                 anyone tell me otherwise. As soon as I realized this, the gains just came naturally."</em>
             </p>
         </div>
-        <img src="assets/my-before.png" alt="client-before">
+        <img src="${repoBase}assets/my-before.png" alt="client-before">
         <div class="trans-arrow">&rArr;</div>
-        <img src="assets/my-after.png" alt="client-after">
+        <img src="${repoBase}assets/my-after.png" alt="client-after">
         <div class="right">
             &#10097;
         </div>
