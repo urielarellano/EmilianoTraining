@@ -1,0 +1,74 @@
+/* ========== RESPONSIVE ADJUSTMENTS ========== */
+@media (max-width: 768px) {
+    header {
+        background-position: center;
+    }
+    .letter p,
+    .offer p,
+    .offer form {
+        width: 90%;
+        font-size: 5vw;
+    }
+
+    .credentials-row {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .my-transformation {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .client-before-after {
+        height: auto;
+    }
+
+    .client {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .client-info {
+        width: 90%;
+        margin: 0;
+    }
+
+    .trans-arrow {
+        font-size: 50px;
+    }
+
+    header a {
+        font-size: 18px;
+        margin-bottom: 100px;
+    }
+    .headline {
+        font-size: 10vw;
+        margin-bottom: 30px;
+        width: 90%;
+    }
+    .header-info-enter p {
+        width: 90%;
+        font-size: 4vw;
+    }
+    .letter p {
+        font-size: 4vw;
+    }
+
+
+    .offer p {
+        font-size: 6vw;
+    }
+    .name-fields {
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+    }
+}
+
+@media (max-width: 550px) {
+    .letter p {
+        font-size: 5vw;
+    }
+}
