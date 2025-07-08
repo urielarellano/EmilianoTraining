@@ -1,9 +1,4 @@
-const repoBase = location.hostname.includes("github.io")
-  ? "/urielarellano/"
-  : "/";
 
-document.querySelector("header").style.backgroundImage =
-  `url('${repoBase}assets/header-image.webp')`;
 
 function fillBeforeAfter() {
     const container = document.querySelector('.client-before-after');
@@ -27,9 +22,9 @@ function fillBeforeAfter() {
                 anyone tell me otherwise. As soon as I realized this, the gains just came naturally."</em>
             </p>
         </div>
-        <img src="${repoBase}assets/my-before.png" alt="client-before">
+        <img src="assets/my-before.png" alt="client-before">
         <div class="trans-arrow">&rArr;</div>
-        <img src="${repoBase}assets/my-after.png" alt="client-after">
+        <img src="assets/my-after.png" alt="client-after">
         <div class="right">
             &#10097;
         </div>
